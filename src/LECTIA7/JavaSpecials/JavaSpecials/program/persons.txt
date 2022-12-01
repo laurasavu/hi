@@ -1,0 +1,5 @@
+Ionel|Istrate|28|Manager
+Andrei|Ionescu|35|Arhitect
+Ioana| |25|Designer
+Laura|Savu|0|IT
+Ana|Maria|0|Cook

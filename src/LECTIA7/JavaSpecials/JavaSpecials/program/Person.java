@@ -1,0 +1,60 @@
+package LECTIA7.JavaSpecials.JavaSpecials.program;
+
+public class Person {
+    private String firstname;
+    private String lastname;
+    private int age;
+    private String job;
+
+    public Person() {
+    }
+
+    public Person(String firstname, String lastname, int age, String job) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.age = age;
+        this.job = job;
+    }
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getJob() {
+        return job;
+    }
+
+    public void setJob(String job) {
+        this.job = job;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", age=" + age +
+                ", job='" + job + '\'' +
+                '}';
+    }
+}
